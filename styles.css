@@ -9,11 +9,9 @@
 
 .main-redirect{
     margin: 0;
+    cursor: pointer;
 }
 
 .navbar{
     padding-bottom: 8px;
 }
-
-
-
