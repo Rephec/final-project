@@ -3,12 +3,15 @@
     /* border:  black solid 3px; */
     padding: .5em;
     margin: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1, li, a, button{
     font-family: "Rajdhani", Arial;
     font-weight: 500;
-    font-size: 1.25em;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -18,12 +21,13 @@ h1, li, a, button{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #404040;
 }
 
 .logo{
     margin: 0;
     cursor: pointer;
-    a
+    list-style: none;
 }
 
 .nav-links{
