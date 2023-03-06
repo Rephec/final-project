@@ -6,6 +6,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+}
+.main-section{
+    color: white;
 }
 
 h1, li, a, button{
@@ -29,39 +33,42 @@ h1, li, a, button{
 } */
 
 .logo{
+    color: red;
     margin: 0;
     cursor: pointer;
     list-style: none;
 }
 
 .nav-links{
-    padding-bottom: 8px;
     list-style: none;
 }
 .nav-links li{
-    display: inherit-block;
+    display: inline-block;
     padding: 0px 20px;
 }
 
 .nav-links li a{
+    /* color:red; */
     transition: all 0.3s ease 0s;
 }
+
 .nav-links li a:hover {
-    color: yellow;
+ color: brown
 }
 
 .toggle-button{
-    color: yellow;
+    color: red;
     padding: 9px 25px;
-    background-color: rgb(17, 16, 16, 1);
-    border: 2px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border: none;
     border-radius: 5em;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+
 button:hover{
-    color: #0c0f14;
-    background-color: white;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
 }
 
 body{
