@@ -20,9 +20,13 @@ h1, li, a, button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 8em;
     background-color: #404040;
 }
+
+/* .toggle-button{
+
+} */
 
 .logo{
     margin: 0;
@@ -32,6 +36,32 @@ h1, li, a, button{
 
 .nav-links{
     padding-bottom: 8px;
+    list-style: none;
+}
+.nav-links li{
+    display: inherit-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: yellow;
+}
+
+.toggle-button{
+    color: yellow;
+    padding: 9px 25px;
+    background-color: rgb(17, 16, 16, 1);
+    border: 2px;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    color: #0c0f14;
+    background-color: white;
 }
 
 body{
