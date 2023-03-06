@@ -10,8 +10,13 @@
 .main-redirect{
     margin: 0;
     cursor: pointer;
+    a
 }
 
 .navbar{
     padding-bottom: 8px;
+}
+
+body{
+    background-color: #0c0f14;
 }
