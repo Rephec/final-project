@@ -1,21 +1,32 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 *{
-    border:  black solid 3px;
+    /* border:  black solid 3px; */
     padding: .5em;
     margin: 0;
 }
 
-.topic-imgs{
-
+h1, li, a, button{
+    font-family: "Rajdhani", Arial;
+    font-weight: 500;
+    font-size: 1.25em;
+    text-decoration: none;
 }
 
-.main-redirect{
+.header-navbar{
+    color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
     margin: 0;
     cursor: pointer;
     a
 }
 
-.navbar{
+.nav-links{
     padding-bottom: 8px;
 }
 
