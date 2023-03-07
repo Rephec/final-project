@@ -10,6 +10,7 @@
 }
 .main-section{
     color: white;
+    font-family: "Rajdhani", Arial;
 }
 
 h1, li, a, button{
@@ -60,7 +61,7 @@ h1, li, a, button{
     border: none;
     border-radius: 5em;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all .3s ease 0s;
 }
 
 button:hover{
@@ -88,4 +89,5 @@ body{
     padding-bottom: 4em;
     margin-bottom: 4em;
     text-align: center;
+    font-family: "Rajdhani", Arial;
 }
