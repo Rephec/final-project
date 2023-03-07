@@ -75,3 +75,7 @@ body{
     background-color: red;
     padding-top: 2em;
 }
+
+.dscr{
+    align-items: center;
+}
