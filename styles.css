@@ -92,8 +92,8 @@ body{
     font-family: "Rajdhani", Arial;
 }
 
-/* Main Page specific */
-.homepage-gtkm{
+/* Default-Boxes  */
+.boxed-info{
     background-color: #4040409d;
     display: flex;
     justify-content: space-between;
@@ -102,12 +102,12 @@ body{
     margin: 1em;
 }
 
-.homepage-gtkm img{
+.boxed-info img{
     width: 250px;
 
 }
 
-.homepage-gtkm h2{
+.boxed-info h2{
     margin: 0;
     text-decoration: underline;
 }
