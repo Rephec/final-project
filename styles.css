@@ -28,7 +28,7 @@ h1, li, a, button{
     background-color: #404040;
 }
 
-.logo{
+.logo, a{
     color: whitesmoke;
     margin: 0;
     cursor: pointer;
