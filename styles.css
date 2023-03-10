@@ -112,6 +112,12 @@ body{
     text-decoration: underline;
 }
 
+.text-list-box{
+    margin: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* .homepage-gtkm p{
     
 } */
